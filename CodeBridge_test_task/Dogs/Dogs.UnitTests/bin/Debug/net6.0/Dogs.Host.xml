@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Dogs.Host</name>
+    </assembly>
+    <members>
+        <member name="M:Dogs.Host.Controllers.DogsHouseBffController.Dogs(System.Int32,System.Int32,System.String,System.Boolean)">
+            <summary>
+            Retrieves a paginated list of dogs.
+            </summary>
+            <param name="pageSize">The number of items to return per page.</param>
+            <param name="pageIndex">The index of the page to retrieve.</param>
+            <param name="sortBy">The attribute to sort by (e.g., 'Name', 'Color', 'TailLength', 'Weight').</param>
+            <param name="ascending">A boolean value indicating the sort order (true for ascending, false for descending).</param>
+            <returns>A paginated response of dogs.</returns>
+        </member>
+    </members>
+</doc>
