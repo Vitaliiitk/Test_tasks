@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dogs", "Dogs", "{41769D75-D729-4B3C-83FC-2C0719C647BF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dogs.Host", "Dogs\Dogs.Host\Dogs.Host.csproj", "{5EB28BE3-E28F-4DFB-B0BB-5D33D80CEC92}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dogs.UnitTests", "Dogs\Dogs.UnitTests\Dogs.UnitTests.csproj", "{BC1B2254-12B0-4079-B4EF-9C0932314AE4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5EB28BE3-E28F-4DFB-B0BB-5D33D80CEC92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EB28BE3-E28F-4DFB-B0BB-5D33D80CEC92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EB28BE3-E28F-4DFB-B0BB-5D33D80CEC92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EB28BE3-E28F-4DFB-B0BB-5D33D80CEC92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC1B2254-12B0-4079-B4EF-9C0932314AE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC1B2254-12B0-4079-B4EF-9C0932314AE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC1B2254-12B0-4079-B4EF-9C0932314AE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC1B2254-12B0-4079-B4EF-9C0932314AE4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5EB28BE3-E28F-4DFB-B0BB-5D33D80CEC92} = {41769D75-D729-4B3C-83FC-2C0719C647BF}
+		{BC1B2254-12B0-4079-B4EF-9C0932314AE4} = {41769D75-D729-4B3C-83FC-2C0719C647BF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BEA8A816-E332-43F2-A307-EDB5CBBB3454}
+	EndGlobalSection
+EndGlobal
